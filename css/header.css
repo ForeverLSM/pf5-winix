@@ -1,0 +1,128 @@
+header {
+  position: relative;
+}
+
+header .wrap {
+  height: 96px;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  padding: 0 50px 0 40px;
+  box-sizing: border-box;
+  width: 100%;
+  animation-name: headerani;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+
+  z-index: 1;
+}
+
+@keyframes headerani{
+  0%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+header .wrap .menu {
+  width: 26px;
+  height: 21px;
+  flex-direction: column;
+  gap: 6px;
+  
+  display: flex;
+}
+header .wrap .menu p{
+
+}
+header .wrap .menu a{
+
+}
+header .wrap .menu p:nth-child(1) a{
+  width: 26px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: all 1s;
+}
+header .wrap .menu p:nth-child(1) a:hover{
+  background: black;
+}
+header .wrap .menu p:nth-child(2) a{
+  width: 20px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: all 1s;
+}
+header .wrap .menu p:nth-child(2) a:hover{
+  background: black;
+}
+header .wrap .menu p:nth-child(3) a{
+  width: 26px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: all 1s;
+}
+header .wrap .menu p:nth-child(3) a:hover{
+  background: black;
+}
+header .wrap h1 {
+  
+}
+header .wrap h1 a {
+  width: 123px;
+  height: 25px;
+  display: block;
+  background-image: url(../img/header/logo.png);
+  font-size: 0;
+  transform: translateX(92%);
+}
+header .wrap ul.icon {
+  gap: 37px;
+  align-items: center;
+  display: flex;
+}
+header .wrap ul.icon li {
+  
+}
+header .wrap ul.icon li a {
+    
+}
+header .wrap ul.icon li:nth-child(1) a{
+  color: white;
+  font-size: 16px;
+}
+header .wrap ul.icon li:nth-child(2) a{
+  background-image: url(../img/header/search.svg);
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 29px;
+}
+header .wrap ul.icon li:nth-child(3) a{
+  background-image: url(../img/header/shop.svg);
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 29px;
+}
+header .wrap ul.icon li:nth-child(4) a{
+  background-image: url(../img/header/lock.svg);
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 29px;
+}
