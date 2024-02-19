@@ -135,6 +135,7 @@ main section#sc2 .wrap .sc2sub1 ul {
 main section#sc2 .wrap .sc2sub1 ul li {
   
 }
+
 main section#sc2 .wrap .sc2sub1 ul li h4 {
   
   font-weight: 800;
@@ -154,7 +155,6 @@ main section#sc2 .wrap .sc2sub1 ul li p {
 }
 main section#sc2 .wrap .sc2sub1 ul li a {
   
-  position: absolute;
   bottom: 50px;
   background-color: #8b7bc1;
   width: 180px;
@@ -164,6 +164,7 @@ main section#sc2 .wrap .sc2sub1 ul li a {
   line-height: 2.5;
   color: white;
   font-weight: 600;
+  position: absolute;
 }
 main section#sc2 .wrap .sc2sub1 ul li img{
 
@@ -244,27 +245,65 @@ main section#sc2 .wrap .sc2sub4 ul li a {
 main section#sc2 .wrap .sc2sub4 ul li img{
   
 }
+
+/* 섹션3 */
+
 main section#sc3 {
-  
-  display: none;
+
 }
 main section#sc3 .wrap {
   
 }
 main section#sc3 .wrap h3 {
   
+  font-weight: 800;
+  text-align: center;
+}
+main section#sc3 .wrap h3 span {
+  
+  font-weight: initial;
 }
 main section#sc3 .wrap ul {
   
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: auto auto;
 }
 main section#sc3 .wrap ul li {
+}
+main section#sc3 .wrap ul li:nth-child(1){
+  grid-column: 1;
+  grid-row: 1;
+  width: 335px;
+  height: 335px;
+}
+main section#sc3 .wrap ul li:nth-child(2){
   
+  grid-column: 2;
+  grid-row: 1;
+}
+main section#sc3 .wrap ul li:nth-child(3){
+  
+  grid-column: 1;
+  grid-row: 2;
+}
+main section#sc3 .wrap ul li:nth-child(4){
+  
+  grid-column: 2;
+  grid-row: 2;
+}
+main section#sc3 .wrap ul li:nth-child(5){
+  
+  grid-column: 3;
+  grid-row: 1 / span 2;
 }
 main section#sc3 .wrap ul li a {
   
 }
 main section#sc3 .wrap ul li a img {
   
+  border-radius: 30px;
+  box-shadow: 0px 20px 30px #ccc;
 }
 main section#sc3 .wrap ul li a span {
   

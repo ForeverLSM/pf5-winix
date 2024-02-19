@@ -1,10 +1,11 @@
 #title {
   
-  min-height: 100%;
 }
 #title .wrap {
   
   max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 #title .wrap .at {
   
@@ -158,29 +159,63 @@
 #title .wrap .slidN ul a {
   
 }
-#title .wrap .tlsideL {
-  
-  display: none;
+#title .wrap .tlside {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#title .wrap .tlsideL a {
-  
+#title .wrap .tlside .tlsideL{
+
+  position: absolute;
+  left: 0;
+  top: 40%;
 }
-#title .wrap .tlsideL a img {
-  
+#title .wrap .tlside .tlsideL a{
+
+  display: block;
+  color: white;
 }
-#title .wrap .tlsideL a span {
-  
+#title .wrap .tlside .tlsideL a span{
+  position: absolute;
+  top: 45%;
+  width: 116px;
+  text-align: right;
 }
-#title .wrap .tlsideR {
-  
-  display: none;
+#title .wrap .tlside .tlsideL a span::before{
+  content: "";
+  display: block;
+  width: 116px;
+  border-top: 1px solid;
+  margin-bottom: 10px;
 }
-#title .wrap .tlsideR a {
-  
+#title .wrap .tlside .tlsideL a img{
+
 }
-#title .wrap .tlsideR a img {
-  
+#title .wrap .tlside .tlsideR{
+  position: absolute;
+  right: 0;
+  top: 40%;
 }
-#title .wrap .tlsideR a span {
-  
+
+#title .wrap .tlside .tlsideR a{
+  display: block;
+  color: white;  
+}
+#title .wrap .tlside .tlsideR a span{
+  position: absolute;
+  top: 45%;
+  width: 116px;  
+  right: 0%;  
+}
+#title .wrap .tlside .tlsideR a span::before{
+  content: "";
+  display: block;
+  width: 116px;
+  border-top: 1px solid;
+  margin-bottom: 10px;
+}
+#title .wrap .tlside .tlsideR a img{
+
 }
