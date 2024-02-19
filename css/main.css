@@ -268,11 +268,8 @@ main section#sc3 .wrap ul {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: auto auto;
-<<<<<<< HEAD
   gap: 20px;
   margin-top: 50px;
-=======
->>>>>>> e62032fe32f99e1f1e1401d1412770b71948f658
 }
 main section#sc3 .wrap ul li {
 }
@@ -386,15 +383,7 @@ main section#sc3 .wrap ul li a div{
 }
 
 main section#sc3 .wrap ul li a img {
-<<<<<<< HEAD
-
-  width: 175px;
   height: 175px;
-=======
-  
-  border-radius: 30px;
-  box-shadow: 0px 20px 30px #ccc;
->>>>>>> e62032fe32f99e1f1e1401d1412770b71948f658
 }
 main section#sc3 .wrap ul li:nth-child(5) a img{
   
