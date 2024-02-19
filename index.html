@@ -9,7 +9,7 @@
     <!-- //구글폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@400;500;600;700&family=Dongle:wght@300&family=Noto+Sans+KR:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- 구글폰트// -->
     <!-- 프리텐다드고딕체 -->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
@@ -17,119 +17,418 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/title.css">
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#title .wrap .side02").hover(function(){
+              $(this).addClass("sidehide");
+            });
+           return false;
+        });
+
+    </script>
 </head>
 <body>
-    <!-- 상단영역 -->
-    <!-- header>.wrap.flex.between>.flex+h1+ul -->
+    <!-- 헤더 -->
+    <!-- header>.wrap>ul.nav>(li>div.ham>span*3)+(li>h1>a)+li>ul.navul>li*4>a -->
     <header>
-        <div class="wrap between">
-            <div class="menu">
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
-            </div>
-            <h1><a href="">위닉스</a></h1>
-            <ul class="icon">
-                <li><a href="">제품등록</a></li>
-                <li><a href="">찾기</a></li>
-                <li><a href="">장바구니</a></li>
-                <li><a href="">잠금</a></li>
+        <div class="wrap paddingR50 paddingL50">
+            <ul class="nav">
+                <li>
+                    <div class="ham">
+                        <span>햄</span>
+                        <span>버</span>
+                        <span>거</span>
+                    </div>
+                </li>
+                <li>
+                    <h1>
+                        <a href="">WINIX</a>
+                    </h1>
+                </li>
+                <li>
+                    <ul class="navul">
+                        <li><a href="">제품등록</a></li>
+                        <li><a href="">찾기</a></li>
+                        <li><a href="">쇼핑배</a></li>
+                        <li><a href="">잠금</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </header>
     <!-- 타이틀영역 -->
-    <!--#title.paddingT50.paddingB50>.wrap>section>(h2+a+p)+.titleB.flex>(ul>li*2>a)+ul>li*2 -->
     <div id="title">
         <div class="wrap">
-            <section>
-                <div class="titleC">
-                    <h2 class="h1">
-                        tower
-                        <span class="block"></span>
-                        edge
-                    </h2>
+            <!-- #title>.wrap>(article*4>h2+a+p)+(.slidN>ul>li*2+a)+.tlside>a*2>img+span -->
+            <article class="at at1">
+                <div class="atfont1">
+                    <h2 class="h1">TOWER<br>
+                         EDGE</h2>
                     <a href="">타워엣지 제품 보기</a>
-                    <p>
-                        공기청정기의 새로운 기준
-                        <span class="block"></span>
-                        버티컬 라인 디자인, 공간에 엣지를 더하다
-                        <span>WINIX 타워 엣지</span> 
-                    </p>
+                    <p class="h6">공기청정기의 새로운 기준<br>
+                        버티컬 라인 디자인, 공간에 엣지를 더하다 <strong>WINIX 타워 엣지</strong></p>
                 </div>
-                <div class="titleB">
-                    <ul class="flex">
-                        <li>01</li>
-                        <span>/</span>
-                        <li>04</li>
-                    </ul>
+            </article>
+            <article class="at at2">
+                <h2> COMPACT DRYER+ </h2>
+                <a href="">컴팩트건조기 플러스 제품 보기</a>
+                <p>초대형 건조기를 컴팩트하게 담아내다<br>
+                    바르게 완성하는 데일리 건조 <strong>컴팩트 건조기 플러스</strong>
+                </p>
+            </article>
+            <article class="at at3">
+                <h2>WINIX PPOSONG</h2>
+                <a href=""></a>
+                <p> 50년 제습명가<br>
+                    빈틈없이 넓은공간을 뽀송하게 <strong>WINIX 뽀송 제습기</strong>
+                </p>
+            </article>
+            <article class="at at4">
+                <h2>초대형 세탁기 건조기 TUMBLE</h2>
+                <p>새로운 선택의 시작<br>
+                   위닉스로 경험하는 New Tumble Life</p>
+                <a href=""></a>
+            </article>
+            <div class="slidN">
+                <ul>
+                    <li>01 /</li>
+                    <li>02 /</li>
+                    <li>03 /</li>
+                    <li>04 /</li>
+                    <li>04</li>
                     <a href=""></a>
-                </div>
-                <!-- <img src="img/title/back01_pd.png" alt="pd_1">  -->
-            </section>
-            <a href="" class="side01"></a>
-            <a href="" class="side02"></a>
+                </ul>
+            </div>
+            <div class="tlsideL">
+                <a href="">
+                    <img src="" alt="">
+                    <span>WINIX STORY</span>
+                </a>
+            </div>
+            <div class="tlsideR">
+                <a href="">
+                    <img src="" alt="">
+                    <span>EVENT</span>
+                </a>
+            </div>
         </div>
     </div>
-    <!-- 카테고리 -->
-    <!-- #cate>wrap.flex>(hgroup>(h3.h3+p.p))+ul.flex.betweeb>li*4>a-->
-    <div id="cate">
-        <wrap class="flex">
-            <hgroup>
-                <h4 class="h4"></h4>
-                <p class="p"></p>
-            </hgroup>
-            <ul class="flex betweeb">
+    <!-- 메인영역 -->
+    <main>
+        <!-- section#1>.wrap>ul>(li>h4+p)+li*4>a -->
+        <section id="sc1" class="paddingB50">
+            <div class="wrap">
+                <ul>
+                    <li>
+                        <h4 class="h3">life category</h4>
+                        <p class="p">원하는 카테고리 선택으로<br>
+                           제품을 빠르게 찾아보세요.
+                        </p>
+                    </li>
+                    <li><a href="">이벤트</a></li>
+                    <li><a href="">WINIX`s Pick</a></li>
+                    <li><a href="">위닉스 스토리</a></li>
+                    <li><a href="">필터구매</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- section#2>.wrap>div*4>ul>(li>h4+h3+p+a)+li>img -->
+        <section id="sc2" class="paddingT50 paddingB50">
+            <div class="wrap">
+                <div class="sc2sub1">
+                    <ul>
+                        <li>
+                            <h4 class="h3">WINIX<span> EVENT</span></h4>
+                            <h3 class="h2">리퍼마켓 BIG SALE</h3>
+                            <p class="h6">S급 리퍼제품들을 최대 64% 할인으로 만나보세요!</p>
+                            <a href="">바로가기</a>
+                        </li>
+                        <li>
+                            <img src="img/main/sc2-1.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="sc2sub2">
+                    <ul>
+                        <li>
+                            <h4>WINIX<span>EVENT</span></h4>
+                            <h3>필터 정기 구매<br>이벤트</h3>
+                            <p>알아서 결제해주고<br>
+                               알아서 배송해주고<br>
+                               알아서 최대 할인까지 챙겨주니까</p>
+                            <a href="">바로가기</a>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="sc2sub3">
+                    <ul>
+                        <li>
+                            <h4></h4>
+                            <h3></h3>
+                            <p></p>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="sc2sub4">
+                    <ul>
+                        <li>
+                            <h4>WINIX<span>EVENT</span></h4>
+                            <h3>위닉스<br>신규가입 이벤트</h3>
+                            <p>위닉스 신규 가입 시<br>
+                               15% 할인코드를 보내드립니다!<br>
+                               (위닉스 홈페이지 직접 가입시에만 발송 가능합니다.)<br>
+                               *5만원 이상 구매시 사용가능합니다.<br>
+                               *신규가입일 기준 해당 월까지만 코드 사용 가능합니다.</p>
+                            <a href="">바로가기</a>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section#3>.wrap>h3+ul>li*5>a>img+span*4 -->
+        <section id="sc3">
+            <div class="wrap">
+                <h3></h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section#4>.wrap>(.img>img*5)+.imgsub>h4+p+ul>li*5>a>h6 -->
+        <section id="sc4">
+            <div class="wrap">
+                <div class="img">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="imgsub">
+                    <h4></h4>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <h6></h6>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h6></h6>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h6></h6>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h6></h6>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h6></h6>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section#5>.wrap>a>img -->
+        <section id="sc5">
+            <div class="wrap">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+        </section>
+        <!-- section#6>.wrap>p+h4+ul>(li*2>a>img)+li*2>a>h5+p -->
+        <section id="sc6">
+            <div class="wrap">
+                <p></p>
+                <h4></h4>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5></h5>
+                            <p></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5></h5>
+                            <p></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section#7>.wrap>.map>h2.hide+.mapsub>p+ul>li>span+a -->
+        <section id="sc7">
+            <div class="wrap">
+                <div class="map">
+                    <h2 class="hide"></h2>
+                    <div class="mapsub">
+                        <p></p>
+                        <ul>
+                            <li>
+                                <span></span>
+                                <a href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section#8>.wrap>(div>p*2>span)+div>h3+ul>li*5>a+p -->
+        <section id="sc8">
+            <div class="wrap">
+                <div>
+                    <p><span></span></p>
+                    <p><span></span></p>
+                </div>
+                <div>
+                    <h3></h3>
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                            <p></p>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                            <p></p>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                            <p></p>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                            <p></p>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <!-- .wrap>(ul>li*2>p*2>span)+(ul>li*4>a)+((.ftsub2>adress>a)+ul>li*5>img)+(ul>li*5>a)+button -->
+        <div class="wrap">
+            <ul>
+                <li>
+                    <p><span></span></p>
+                    <p><span></span></p>
+                </li>
+                <li>
+                    <p><span></span></p>
+                    <p><span></span></p>
+                </li>
+            </ul>
+            <ul>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
             </ul>
-        </wrap>
-    </div>
-    <!-- 메인영역 -->
-    <!-- main.paddingT50.paddingB50>section*7 -->
-    <main class="paddingT50 paddingB50">
-    <!-- section#event>.wrap>(div>(ul>hroup>h4+h3)+p+a)+ul>a+(div>ul>li*5) -->
-        <section id="event">
-            <div class="wrap">
-                <div>
-                    <ul>
-                        <hroup>
-                            <h4></h4>
-                            <h3></h3>
-                        </hroup>
-                    </ul>
-                    <p></p>
+            <div class="ftsub2">
+                <adress>
                     <a href=""></a>
-                </div>
-                <ul>
-                    <a href=""></a>
-                    <div>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </ul>
+                </adress>
             </div>
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-    </main>
-
-   
-    <!-- 하단영역 -->
-    <footer>
-
+            <ul>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+                <li><img src="" alt=""></li>
+            </ul>
+            <div class="ftft">
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                <button></button>
+            </div>
+        </div>
     </footer>
 
 </body>

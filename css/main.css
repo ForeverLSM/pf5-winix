@@ -1,0 +1,411 @@
+main {
+}
+main section#sc1 {
+  
+}
+main section#sc1 .wrap{
+  
+  max-width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+main section#sc1 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 192px;  
+  align-items: center;
+}
+main section#sc1 ul li {
+  
+}
+main section#sc1 ul li h4 {
+  
+  text-transform: capitalize;
+  font-weight: 800;
+}
+main section#sc1 ul li p {
+  
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+main section#sc1 ul li a {
+  
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+}
+main section#sc1 ul li a:hover{
+  
+  color: white;
+  background-image: url(../img/main/sc1-bg.png);
+}
+
+main section#sc1 ul li:nth-child(2) a::before{
+  content: "";
+  background-image: url(../img/main/sc1-1.png);
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+}
+main section#sc1 ul li:nth-child(2) a:hover::before{
+  background-image: url(../img/main/sc1-1-h.png);
+}
+main section#sc1 ul li:nth-child(3) a:hover::before{
+  background-image: url(../img/main/sc1-2-h.png);
+}
+main section#sc1 ul li:nth-child(4) a:hover::before{
+  background-image: url(../img/main/sc1-3-h.png);
+}
+main section#sc1 ul li:nth-child(5) a:hover::before{
+  background-image: url(../img/main/sc1-4-h.png);
+}
+main section#sc1 ul li:nth-child(3) a::before{
+  content: "";
+  background-image: url(../img/main/sc1-2.png);
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+}
+main section#sc1 ul li:nth-child(4) a::before{
+  content: "";
+  background-image: url(../img/main/sc1-3.png);
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+}
+main section#sc1 ul li:nth-child(5) a::before{
+  content: "";
+  background-image: url(../img/main/sc1-4.png);
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+/* 섹션 2 */
+
+
+main section#sc2 {
+  
+  /*! display: none; */
+}
+main section#sc2 .wrap {
+  
+  height: 533px;
+  background-color: rgb(235, 236, 246);
+  position: relative;
+}
+main section#sc2 .wrap img{
+  border-radius: 20px;
+}
+main section#sc2 .wrap .sc2sub1 {
+  
+  /*! display: none; */
+  width: 100%;
+  padding: 50px 80px;
+  box-sizing: border-box;
+}
+main section#sc2 .wrap .sc2sub1 ul {
+  
+  display: flex;
+  justify-content: space-between;
+}
+main section#sc2 .wrap .sc2sub1 ul li {
+  
+}
+main section#sc2 .wrap .sc2sub1 ul li h4 {
+  
+  font-weight: 800;
+}
+main section#sc2 .wrap .sc2sub1 ul li h4 span{
+  
+  font-weight: 300;
+}
+main section#sc2 .wrap .sc2sub1 ul li h3 {
+  
+  font-weight: 700;
+  line-height: 2;
+}
+main section#sc2 .wrap .sc2sub1 ul li p {
+  
+  font-weight: 300;
+}
+main section#sc2 .wrap .sc2sub1 ul li a {
+  
+  position: absolute;
+  bottom: 50px;
+  background-color: #8b7bc1;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 2.5;
+  color: white;
+  font-weight: 600;
+}
+main section#sc2 .wrap .sc2sub1 ul li img{
+
+}
+main section#sc2 .wrap .sc2sub2 {
+
+  display: none;
+}
+main section#sc2 .wrap .sc2sub2 ul {
+  
+}
+main section#sc2 .wrap .sc2sub2 ul li {
+  
+}
+main section#sc2 .wrap .sc2sub2 ul li h4 {
+  
+}
+
+main section#sc2 .wrap .sc2sub2 ul li h3 {
+  
+}
+main section#sc2 .wrap .sc2sub2 ul li p {
+  
+}
+main section#sc2 .wrap .sc2sub2 ul li a {
+  
+}
+main section#sc2 .wrap .sc2sub2 ul li img{
+  
+}
+main section#sc2 .wrap .sc2sub3 {
+  
+  display: none;
+}
+main section#sc2 .wrap .sc2sub3 ul {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li h4 {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li h3 {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li p {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li a {
+  
+}
+main section#sc2 .wrap .sc2sub3 ul li img{
+  
+}
+main section#sc2 .wrap .sc2sub4 {
+  
+  display: none;
+}
+main section#sc2 .wrap .sc2sub4 ul {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li h4 {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li h3 {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li p {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li a {
+  
+}
+main section#sc2 .wrap .sc2sub4 ul li img{
+  
+}
+main section#sc3 {
+  
+  display: none;
+}
+main section#sc3 .wrap {
+  
+}
+main section#sc3 .wrap h3 {
+  
+}
+main section#sc3 .wrap ul {
+  
+}
+main section#sc3 .wrap ul li {
+  
+}
+main section#sc3 .wrap ul li a {
+  
+}
+main section#sc3 .wrap ul li a img {
+  
+}
+main section#sc3 .wrap ul li a span {
+  
+}
+main section#sc4 {
+  
+  display: none;
+}
+main section#sc4 .wrap {
+  
+}
+main section#sc4 .wrap .img {
+  
+}
+main section#sc4 .wrap .img img {
+  
+}
+main section#sc4 .wrap .imgsub {
+  
+}
+main section#sc4 .wrap .imgsub h4 {
+  
+}
+main section#sc4 .wrap .imgsub p {
+  
+}
+main section#sc4 .wrap .imgsub ul {
+  
+}
+main section#sc4 .wrap .imgsub ul li {
+  
+}
+main section#sc4 .wrap .imgsub ul li a {
+  
+}
+main section#sc4 .wrap .imgsub ul li a h6 {
+  
+}
+main section#sc5 {
+  
+  display: none;
+}
+main section#sc5 .wrap {
+  
+}
+main section#sc5 .wrap a {
+  
+}
+main section#sc5 .wrap a img {
+  
+}
+main section#sc6 {
+  
+  display: none;
+}
+main section#sc6 .wrap {
+  
+}
+main section#sc6 .wrap p {
+  
+}
+main section#sc6 .wrap h4 {
+  
+}
+main section#sc6 .wrap ul {
+  
+}
+main section#sc6 .wrap ul li {
+  
+}
+main section#sc6 .wrap ul li a {
+  
+}
+main section#sc6 .wrap ul li a img {
+  
+}
+main section#sc6 .wrap ul li a h5 {
+  
+}
+main section#sc6 .wrap ul li a p {
+  
+}
+main section#sc7 {
+  
+  display: none;
+}
+main section#sc7 .wrap {
+  
+}
+main section#sc7 .wrap .map {
+  
+}
+main section#sc7 .wrap .map h2.hide {
+  
+}
+main section#sc7 .wrap .map .mapsub {
+  
+}
+main section#sc7 .wrap .map .mapsub p {
+  
+}
+main section#sc7 .wrap .map .mapsub ul {
+  
+}
+main section#sc7 .wrap .map .mapsub ul li {
+  
+}
+main section#sc7 .wrap .map .mapsub ul li span {
+  
+}
+main section#sc7 .wrap .map .mapsub ul li a {
+  
+}
+main section#sc8 {
+  
+  display: none;
+}
+main section#sc8 .wrap {
+  
+}
+main section#sc8 .wrap div {
+  
+}
+main section#sc8 .wrap div p {
+  
+}
+main section#sc8 .wrap div p span {
+  
+}
+main section#sc8 .wrap div h3 {
+  
+}
+main section#sc8 .wrap div ul {
+  
+}
+main section#sc8 .wrap div ul li {
+  
+}
+main section#sc8 .wrap div ul li a {
+  
+}
+main section#sc8 .wrap div ul li p {
+  
+}
