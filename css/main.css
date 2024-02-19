@@ -260,7 +260,6 @@ main section#sc3 .wrap h3 {
   text-align: center;
 }
 main section#sc3 .wrap h3 span {
-  
   font-weight: initial;
 }
 main section#sc3 .wrap ul {
@@ -387,8 +386,8 @@ main section#sc3 .wrap ul li a img {
 }
 main section#sc3 .wrap ul li:nth-child(5) a img{
   
-  width: 671px;
-  height: 671px;
+  width: 680px;
+  height: 690px;
   border-radius: 30px;
 }
 
