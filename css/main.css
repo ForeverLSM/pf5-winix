@@ -528,21 +528,20 @@ main section#sc4 .wrap .imgsub ul li a h6:hover{
   color: black;
 }
 main section#sc5 {
-  
-  display: none;
 }
 main section#sc5 .wrap {
-  
+  max-width: 100%;
 }
 main section#sc5 .wrap a {
-  
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 main section#sc5 .wrap a img {
-  
+  width: 100%;
 }
 main section#sc6 {
   
-  display: none;
 }
 main section#sc6 .wrap {
   
