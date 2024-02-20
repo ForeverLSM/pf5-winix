@@ -541,34 +541,73 @@ main section#sc5 .wrap a img {
   width: 100%;
 }
 main section#sc6 {
-  
+  height: 100vh;
 }
 main section#sc6 .wrap {
   
 }
 main section#sc6 .wrap p {
-  
+  line-height: 1.5;
+  font-weight: 300;
 }
 main section#sc6 .wrap h4 {
-  
+  font-weight: 800;
+  line-height: 1.5;
 }
 main section#sc6 .wrap ul {
-  
+  display: flex;
+  position: relative;
+  gap: 25px;
+  margin-top: 20px;
+  width: 100%;
 }
 main section#sc6 .wrap ul li {
-  
+}
+main section#sc6 .wrap ul li:nth-child(2){
+  position: absolute;
+  right: 437px;
+  top: 5px;
+}
+main section#sc6 .wrap ul li:nth-child(4){
+  position: absolute;
+  bottom: 50px;
+  left: 485px;
 }
 main section#sc6 .wrap ul li a {
-  
+  display: block;
 }
 main section#sc6 .wrap ul li a img {
-  
+ 
 }
 main section#sc6 .wrap ul li a h5 {
-  
+  font-weight: 800;
+ 
+  margin-bottom: 20px;
+}
+main section#sc6 .wrap ul li:nth-child(2) a h5::after{
+  content: "";
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  width: 165px;
+  right: 142px;
+  margin-top: 10px;
+}
+main section#sc6 .wrap ul li:nth-child(4) a h5::after{
+  content: "";
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  width: 200px;
+  left: 60px;
+  margin-top: 10px;
 }
 main section#sc6 .wrap ul li a p {
-  
+  font-weight: 500;
+  color: #9d9d9d;
+}
+main section#sc6 .wrap ul li:nth-child(4) a p{
+  text-align: right;
 }
 main section#sc7 {
   
