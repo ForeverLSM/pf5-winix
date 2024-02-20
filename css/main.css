@@ -431,39 +431,101 @@ main section#sc3 .wrap ul li:nth-child(5)  a span.price{
   
   font-size: 30px;
 }
+/* 섹션4 */
 main section#sc4 {
   
-  display: none;
 }
 main section#sc4 .wrap {
   
+  justify-content: space-between;
+  position: relative;
 }
-main section#sc4 .wrap .img {
+main section#sc4 .wrap .scimg {
   
 }
-main section#sc4 .wrap .img img {
-  
+main section#sc4 .wrap .scimg img:nth-child(1) {
+  width: 964px;
+  height: 551px;
+  border-radius: 40px;
 }
+main section#sc4 .wrap .scimg img:nth-child(2) {
+  
+  display: none;
+}
+main section#sc4 .wrap .scimg img:nth-child(3) {
+  
+  display: none;
+}
+main section#sc4 .wrap .scimg img:nth-child(4) {
+  
+  display: none;
+}
+main section#sc4 .wrap .scimg img:nth-child(5) {
+  
+  display: none;
+}
+
 main section#sc4 .wrap .imgsub {
-  
+  padding-top: 70px;
 }
 main section#sc4 .wrap .imgsub h4 {
-  
+  font-weight: 800;
+}
+main section#sc4 .wrap .imgsub h4 span{
+  font-weight: 300;
 }
 main section#sc4 .wrap .imgsub p {
-  
+  margin: 15px 0 30px 0;
 }
 main section#sc4 .wrap .imgsub ul {
-  
+  padding-top: 40px;
+  width: 100%;
+}
+main section#sc4 .wrap .imgsub ul::before{
+  content:"";
+  border-top: 2px solid black;
+  width: 470px;
+  display: block;
+  position: absolute;
+  right: 0px;
 }
 main section#sc4 .wrap .imgsub ul li {
+  width: 100%;
+  height: 76px;
+}
+main section#sc4 .wrap .imgsub ul li a::after{
+  content:"";
+  display: inline-block;
+  background-image: url(../img/title/stroy_arr-80dc92c1.png);
+  width: 12px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+}
+main section#sc4 .wrap .imgsub ul li:hover a::after{
+  opacity: 1;
   
+  /*! color: black; */
+}
+
+main section#sc4 .wrap .imgsub ul li:not(:last-child){
+  border-bottom: 1px solid #dedede;
 }
 main section#sc4 .wrap .imgsub ul li a {
-  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
+
 main section#sc4 .wrap .imgsub ul li a h6 {
-  
+  color: #8e8e8e;
+  line-height: 5;
+}
+main section#sc4 .wrap .imgsub ul li a h6:hover{
+  color: black;
 }
 main section#sc5 {
   
