@@ -676,32 +676,105 @@ main section#sc7 .wrap .map .mapsub ul li span {
 
 main section#sc8 {
   
-  display: none;
 }
 main section#sc8 .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+main section#sc8 .wrap .sc8Ment {
   
 }
-main section#sc8 .wrap div {
+main section#sc8 .wrap .sc8Ment p.h6 {
+  font-weight: 600;
+  line-height: 2;
+}
+main section#sc8 .wrap .sc8Ment p.h6 span {
+  font-size: 35px;
+  color: purple;
+}
+main section#sc8 .wrap .sc8Ment p.p {
+  margin-top: 30px;
+  color: #888;
+  font-size: 17px;
+}
+main section#sc8 .wrap .sc8Ment p.p span {
+  color: black;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+}
+main section#sc8 .wrap .sc8Ser{
+  width: 900px;
+}
+main section#sc8 .wrap .sc8Ser h3.h5 {
+  font-weight: 500;
+}
+main section#sc8 .wrap .sc8Ser ul {
+  margin-top: 50px;
+}
+main section#sc8 .wrap .sc8Ser ul li {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+main section#sc8 .wrap .sc8Ser ul li a {
+  display: inline-block;
+  width: 127px;
+  height: 127px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(1) a{
+  background-image: url(../img/main/sc8-1-o.png);
   
 }
-main section#sc8 .wrap div p {
+main section#sc8 .wrap .sc8Ser ul li:nth-child(2) a{
+  background-image: url(../img/main/sc8-2-o.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(3) a{
+  background-image: url(../img/main/sc8-3-o.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(4) a{
+  background-image: url(../img/main/sc8-4-o.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(5) a{
+  background-image: url(../img/main/sc8-5-o.png);
+}
+main section#sc8 .wrap .sc8Ser ul li a:hover{
+  background-color: white;
+  box-shadow: 0px 5px 20px #d0d0d0;
   
 }
-main section#sc8 .wrap div p span {
+main section#sc8 .wrap .sc8Ser ul li:nth-child(1) a:hover{
+  background-image: url(../img/main/sc8-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(2) a:hover{
+  background-image: url(../img/main/sc8-2.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(3) a:hover{
+  background-image: url(../img/main/sc8-3.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(4) a:hover{
+  background-image: url(../img/main/sc8-4.png);
+}
+main section#sc8 .wrap .sc8Ser ul li:nth-child(5) a:hover{
+  background-image: url(../img/main/sc8-5.png);
+}
+main section#sc8 .wrap .sc8Ser ul li a img {
   
 }
-main section#sc8 .wrap div h3 {
-  
+main section#sc8 .wrap .sc8Ser ul li a img:hover{
+  display: none;
 }
-main section#sc8 .wrap div ul {
-  
-}
-main section#sc8 .wrap div ul li {
-  
-}
-main section#sc8 .wrap div ul li a {
-  
-}
-main section#sc8 .wrap div ul li p {
-  
+
+main section#sc8 .wrap .sc8Ser ul li p {
+  cursor: pointer;
+  margin-top: 10px;
 }
