@@ -1,6 +1,7 @@
 footer{
   
   max-width: 100%;
+  background-color: #f7f7f7;
 }
 footer::before{
   content: "";
@@ -8,7 +9,7 @@ footer::before{
   display: block;
 }
 footer .wrap{
-  padding-top: 35px;
+  padding: 35px 0 35px 0;
 }
 footer .wrap .ft{
 
@@ -115,25 +116,54 @@ footer .wrap .ad .ftimg li img{
 
   height: 45px;
 }
-footer .wrap .ftft{
+footer .ftft{
+
+  background-color: #323232;
+  height: 59px;
+}
+footer .ftft .ftftsub{
+
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 100%;
+}
+footer .ftft .ftftsub ul{
+
+  display: flex;
+  align-items: center;
+}
+footer .ftft .ftftsub ul li{
 
 }
-footer .wrap .ftft ul{
+footer .ftft .ftftsub ul li:nth-child(1){
+  
+}
+footer .ftft .ftftsub ul li a{
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+  height: 59px;
+  line-height: 4.5;
+}
+footer .ftft .ftftsub ul li:not(:first-child) a{
+  
+  border-left: 1px solid white;
+  padding-left: 30px;
+}
+footer .ftft .ftftsub ul li:not(:last-child) a{
+  
+  padding-right: 30px;
+}
+footer .ftft .ftftsub select{
 
 }
-footer .wrap .ftft ul li{
+footer .ftft .ftftsub select option{
 
 }
-footer .wrap .ftft ul li a{
-
-}
-footer .wrap .ftft select{
-
-}
-footer .wrap .ftft select option{
-
-}
-footer .wrap .ftft select option a{
+footer .ftft .ftftsub select option a{
 
 }
 
