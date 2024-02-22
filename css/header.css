@@ -44,7 +44,7 @@ header .wrap ul.nav li .ham span {
   border-top: 3px solid white;
   font-size: 0;
   width: 24px;
-  transition: 0.7s;
+  transition: 0.2s;
   height: 7px;
 }
 header .wrap ul.nav li .ham span:hover{
