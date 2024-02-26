@@ -89,19 +89,19 @@ footer .wrap .ad{
   display: flex;
   justify-content: space-between;
 }
-footer adress{
+footer address{
    
   font-size: 14px;
   color: #696969;
   line-height: 1.7;
 }
-footer adress a{
+footer address a{
   
   color: #696969;
   font-size: 15px;
   font-weight: 600;
 }
-footer adress span{
+footer address span{
   
   color: #bbb;
   font-weight: 200;
